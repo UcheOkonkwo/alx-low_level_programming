@@ -2,16 +2,19 @@
 
 /**
  * print_alphabet_x10 - print 10 times the alphabet, in lowercase
+ *
+ * Return: 0
  */
 
-void void print_alphabet_x10(void);
-{
-	int count = 0;
-	char letter;
+void print_alphabet_x10(void);
 
-	while (count++ <= 9)
+	int a, b;
+
+	for (a = 0; a <= 9; a++)
 	{
-		for letter = 'a'; letter <= 'z' letter++
-			_putchar(letter);
-	_putchar('\n');
+		for (b = 97; b <= 122; b++)
+		{
+			_putchar(b);
+		}
+		_putchar('\n');
 	}
