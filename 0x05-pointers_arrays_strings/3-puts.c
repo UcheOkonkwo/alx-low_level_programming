@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
  * _puts - ouput
@@ -14,12 +14,3 @@ _putchar(*str++);
 }
 _putchar('\n');
 }
-
-
-
-
-
-
-
-
-
